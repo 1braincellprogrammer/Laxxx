@@ -1,0 +1,160 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Times New Roman;
+	width: 100%;
+	height: 100%;
+	background: url(bg.jpg);
+	background-size: cover;
+}
+h1
+{
+	position: absolute;
+	left: 5%;
+	top: 0.5%;
+	font-weight: bold;
+}
+.order
+{
+	position: absolute;
+	left: 23%;
+	top: 14%;
+	font-weight: bold;
+}
+.menu img
+{
+	float: left;
+	width: 90px;
+}
+ul
+{
+	position: absolute;
+	top: 5%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+ul li
+{
+	list-style: none;
+}
+ul li a
+{
+	position: relative;
+	display: block;
+	padding: 10px 20px;
+	margin: 20px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #262626;
+	font-weight: bold;
+	transition: .5s;
+}
+ul li a:hover
+{
+	color: #fff;
+}
+ul li a:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	transform: scaleY(2);
+	opacity: 0;
+	transition: 0.5s;
+	z-index: -1;
+
+}
+ul li a:hover:before
+{
+	transform: scaleY(1.2);
+	opacity: 1;
+}
+ul li a:after
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	transform: scale(0);
+	transition: 0.5s;
+	z-index: -1;
+}
+ul li a:hover:after
+{
+	transform: scale(1);
+}
+input[type=text]
+{
+    width:50%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+  }
+  
+  input[type=text]:focus
+  {
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+  .name1
+  {
+  	position: absolute;
+  	top: 20%;
+  	left: 23%;
+  }
+   .name2
+  {
+  	position: absolute;
+  	top: 25%;
+  	left: 23%;
+  }
+   .name3
+  {
+  	position: absolute;
+  	top: 30%;
+  	left: 23%;
+  }
+   .name4
+  {
+  	position: absolute;
+  	top: 35%;
+  	left: 23%;
+  }
+
+  input[type=submit] {
+  width: 50%;
+  background-color: #000000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #808080;
+}
+
+.submit
+{
+	position: absolute;
+	top: 41%;
+  	left: 23%;
+}

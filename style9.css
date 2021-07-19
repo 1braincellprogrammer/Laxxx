@@ -1,0 +1,253 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Times New Roman;
+	width: 100%;
+	height: 100%;
+	background: url(bg.jpg);
+	background-size: cover;
+}
+.menu1
+{
+	position: absolute;
+	left: 5%;
+	top: 0.5%;
+	font-weight: bold;
+}
+.menu2
+{
+	position: absolute;
+	left: 5%;
+	top: 10%;
+	font-weight: bold;
+}
+.menu3
+{
+	position: absolute;
+	left: 5%;
+	top: 63.5%;
+	font-weight: bold;
+}
+.menu4
+{
+	position: absolute;
+	left: 5%;
+	top: 164%;
+	font-weight: bold;
+}
+
+.a
+{
+	position: absolute;
+	width: 300px;
+	top: 19%;
+	left: 7%;
+}
+.aa
+{
+	position: absolute;
+	width: 300px;
+	top: 19%;
+	left: 24%;
+}
+.aaa
+{
+	position: absolute;
+	width: 300px;
+	top: 19%;
+	left: 41%;
+}
+.aaaa
+{
+	position: absolute;
+	width: 300px;
+	top: 19%;
+	left: 58%;
+}
+.aaaaa
+{
+	position: absolute;
+	width: 300px;
+	top: 19%;
+	left: 75%;
+}
+.aaaaaa
+{
+	position: absolute;
+	width: 300px;
+	top: 73%;
+	left: 7%;
+}
+
+.aaaaaaa
+{
+	position: absolute;
+	width: 300px;
+	top: 73%;
+	left: 24%;
+}
+.aaaaaaaa
+{
+	position: absolute;
+	width: 300px;
+	top: 73%;
+	left: 41%;
+}
+.aaaaaaaaa
+{
+	position: absolute;
+	width: 300px;
+	top: 73%;
+	left: 58%;
+}
+.aaaaaaaaaa
+{
+	position: absolute;
+	width: 300px;
+	top: 73%;
+	left: 75%;
+}
+.aaaaaaaaaaa
+{
+	position: absolute;
+	width: 300px;
+	top: 120%;
+	left: 7%;
+}
+.aaaaaaaaaaaa
+{
+	position: absolute;
+	width: 300px;
+	top: 120%;
+	left: 24%;
+}
+.aaaaaaaaaaaaa
+{
+	position: absolute;
+	width: 300px;
+	top: 173%;
+	left: 7%;
+}
+.aaaaaaaaaaaaaa
+{
+	position: absolute;
+	width: 300px;
+	top: 173%;
+	left: 24%;
+}
+.aaaaaaaaaaaaaaa
+{
+	position: absolute;
+	width: 300px;
+	top: 173%;
+	left: 41%;
+}
+.aaaaaaaaaaaaaaaa
+{
+	position: absolute;
+	width: 300px;
+	top: 173%;
+	left: 58%;
+}
+.aaaaaaaaaaaaaaaaa
+{
+	position: absolute;
+	width: 300px;
+	top: 173%;
+	left: 75%;
+}
+.aaaaaaaaaaaaaaaaaa
+{
+	position: absolute;
+	width: 300px;
+	top: 220%;
+	left: 7%;
+}
+.aaaaaaaaaaaaaaaaaaa
+{
+	position: absolute;
+	width: 300px;
+	top: 220%;
+	left: 24%;
+}
+.aaaaaaaaaaaaaaaaaaaa
+{
+	position: absolute;
+	width: 300px;
+	top: 220%;
+	left: 41%;
+}
+.menu img
+{
+	float: left;
+	width: 90px;
+}
+ul
+{
+	position: absolute;
+	top: 5%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+ul li
+{
+	list-style: none;
+}
+ul li a
+{
+	position: relative;
+	display: block;
+	padding: 10px 20px;
+	margin: 20px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #262626;
+	font-weight: bold;
+	transition: .5s;
+}
+ul li a:hover
+{
+	color: #fff;
+}
+ul li a:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	transform: scaleY(2);
+	opacity: 0;
+	transition: 0.5s;
+	z-index: -1;
+
+}
+ul li a:hover:before
+{
+	transform: scaleY(1.2);
+	opacity: 1;
+}
+ul li a:after
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	transform: scale(0);
+	transition: 0.5s;
+	z-index: -1;
+}
+ul li a:hover:after
+{
+	transform: scale(1);
+}
